@@ -8,6 +8,8 @@ html {
 
 * {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,25 +17,34 @@ body {
   font-family: var(--primary-font-stack);
 }
 
-.page-header {
+.wrapper {
   width: 900px;
   margin: 0 auto;
+
+}
+
+.page-header {
+  /* width: 900px; */
+  /* margin: 0 auto; */
   padding-top: 77px;
   padding-bottom: 104px;
 }
 
+/* 
 .page-nav {
   align-items: center;
-}
+  
+} */
 
-.wrapper {
-  width: 900px;
-  margin: 0 auto;
+.wrappage {
+  /* width: 900px;
+  margin: 0 auto; */
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .list {
@@ -72,14 +83,14 @@ body {
   color: #46c0f7;
 }
 
-.section {
+/* .section {
   align-items: center;
-  width: 1200px;
+   width: 900px; 
   margin-left: auto;
-  margin-right: auto;
-  padding-left: 150px;
-  padding-right: 150px;
-}
+  margin-right: auto; 
+ padding-left: 150px;
+  padding-right: 150px; 
+} */
 
 .main-info {
   display: flex;
@@ -110,12 +121,23 @@ body {
   flex-basis: 50%;
   color: #ffffff;
   align-items: center;
+  padding-bottom: 132px;
 }
+
+.item-last {
+  flex-basis: 50%;
+  color: #ffffff;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
 .main-info-item:nth-child(2n) {
   padding-left: 30px;
 }
+
 .main-text {
   color: #626262;
+
 }
 
 .button {
@@ -128,4 +150,5 @@ body {
   line-height: 24px;
   font-family: inherit;
   color: #626262;
+  margin-top: 54px;
 }
