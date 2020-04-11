@@ -20,14 +20,13 @@ body {
 .wrapper {
   width: 900px;
   margin: 0 auto;
-
+  padding-top: 77px;
 }
 
 .page-header {
   /* width: 900px; */
   /* margin: 0 auto; */
-  padding-top: 77px;
-  padding-bottom: 104px;
+  margin-bottom: 104px;
 }
 
 /* 
@@ -115,6 +114,7 @@ body {
   font-weight: 300;
   color: #b4ad9e;
   text-transform: uppercase;
+  padding-top: 32px;
 }
 
 .main-info-item {
@@ -134,10 +134,12 @@ body {
 .main-info-item:nth-child(2n) {
   padding-left: 30px;
 }
+.item-last:nth-child(2n) {
+  padding-left: 30px;
+}
 
 .main-text {
   color: #626262;
-
 }
 
 .button {
