@@ -106,17 +106,6 @@ body {
   margin-top: 32px;
 }
 
-/* .products-list li {
-  float: left;
-  height: 322px;
-  width: 255px;
-  background: #e9f0fd;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  list-style-type: none;
-  align-items: center;
-} */
-
 .card-list-item {
   float: left;
   list-style: none;
