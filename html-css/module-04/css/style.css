@@ -2,12 +2,10 @@ html {
   box-sizing: border-box;
 }
 
-*,
-::before,
-::after {
-  box-sizing: inherit;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .clearfix::after {
@@ -20,12 +18,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+
 .page-header {
-  margin-bottom: 105px;
+  margin-bottom: 100px;
 }
 
 .page-nav {
-  width: 1112px;
   margin: 0 auto;
   margin-top: 38px;
 }
@@ -41,12 +44,12 @@ body {
 
 .site-navigation li {
   float: left;
-  padding-right: 10px;
   list-style-type: none;
 }
 
 .site-navigation li:not(:last-child) {
   margin-right: 10px;
+  padding-right: 10px;
 }
 
 .site-link {
@@ -68,29 +71,32 @@ body {
   font-size: 30px;
   font-weight: 300;
   line-height: 32px;
-  font-family: 'Roboto', sans-serif;
   margin-right: 567px;
   color: #555252;
 }
 
 .site-logo::first-letter {
   color: #1abc9c;
-  font-weight: 400;
+  font-weight: 900;
 }
 
 .container {
-  width: 1112px;
   margin: 0 auto;
 }
 
 /* section 1 */
 
+.products {
+  margin-bottom: 100px;
+}
+
 .products-title {
-  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
   text-transform: uppercase;
   color: #555252;
   text-align: center;
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 900;
   line-height: 32px;
   margin-bottom: 92px;
@@ -117,6 +123,11 @@ body {
   margin-right: 0px;
 
 }
+
+.card-list-item:nth-child(n+5) {
+  margin-bottom: 0;
+}
+
 
 .card {
   float: left;
@@ -157,9 +168,10 @@ body {
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 40px;
   text-transform: uppercase;
   height: 40px;
+  padding-left: 14px;
 }
 
 .card-footer span {
@@ -185,16 +197,17 @@ body {
 
 /* section 2 */
 
+
 .news-title {
+  margin: 0;
+  padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   color: #555252;
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 900;
   line-height: 32px;
-  margin-top: 105px;
-  margin-bottom: 81px;
+  margin-bottom: 80px;
 }
 
 .news-title::after {
@@ -207,12 +220,16 @@ body {
   margin-top: 32px;
 }
 
+.news-list {
+  margin-bottom: 81px;
+}
+
 .news-list li {
+  margin: 0;
   float: left;
   width: 351px;
   height: 496px;
-  margin-right: 29px;
-  margin-bottom: 30px;
+  margin-right: 28px;
   list-style-type: none;
 }
 
