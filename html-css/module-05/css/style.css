@@ -254,7 +254,7 @@ body {
 }
 
 .overlay-link-arrows {
-  background-image: url(../img/_arrows.png);
+  background-image: url(../img/arrows.png);
   margin-right: 10px;
 
 }
@@ -263,6 +263,7 @@ body {
   background-image: url(../img/clock.png);
 
 }
+
 
 .overlay-link-basket {
   background-image: url(../img/basket.png);
