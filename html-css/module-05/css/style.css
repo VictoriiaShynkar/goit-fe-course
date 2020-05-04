@@ -87,7 +87,7 @@ body {
 
 .slider-wrapper {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/slide4.png);
+    url(../img/slide4.png);
   min-height: 600px;
   background-size: cover;
   position: relative;
@@ -122,13 +122,13 @@ body {
 
 .prev {
   float: left;
-  background-image: url(/img/left.png);
+  background-image: url(../img/left.png);
   margin-left: 244px;
 }
 
 .next {
   float: right;
-  background-image: url(/img/right.png);
+  background-image: url(../img/right.png);
   margin-right: 244px;
 }
 
@@ -248,24 +248,24 @@ body {
 }
 
 .overlay-link-heart {
-  background-image: url(/img/heart.png);
+  background-image: url(../img/heart.png);
   margin-right: 10px;
 
 }
 
 .overlay-link-arrows {
-  background-image: url(/img/_arrows.png);
+  background-image: url(../img/_arrows.png);
   margin-right: 10px;
 
 }
 
 .overlay-link-clock {
-  background-image: url(/img/clock.png);
+  background-image: url(../img/clock.png);
 
 }
 
 .overlay-link-basket {
-  background-image: url(/img/basket.png);
+  background-image: url(../img/basket.png);
   width: 170px;
   height: 50px;
   border: 1px solid #ffffff;
