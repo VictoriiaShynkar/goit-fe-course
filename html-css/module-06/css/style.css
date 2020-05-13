@@ -146,8 +146,8 @@
   background-image: url(../img/home.png);
 }
 
-.icon-photo::before {
-  background-image: url(../img/image.png);
+.icon-frame::before {
+  background-image: url(../img/frame.png);
 }
 
 .team::after {
@@ -198,10 +198,6 @@
   transform: translate(-10px, -10px);
   transition: all 200ms linear;
 }
-
-/* .image:hover {
-  transform: translate(-10px, -10px);
-} */
 
 .team-list-item:nth-child(3n) {
   margin-right: 0px;
@@ -337,4 +333,5 @@
   font-family: "Montserrat";
   font-weight: 700;
   text-align: center;
+  cursor: pointer;
 }
