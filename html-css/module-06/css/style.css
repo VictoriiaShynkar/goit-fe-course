@@ -127,7 +127,7 @@
 }
 
 .icon-alarm::before {
-  background-image: url(../img/alarm.png);
+  background-image: url(../img/clock.png);
 }
 
 .icon-line::before {
@@ -143,11 +143,11 @@
 }
 
 .icon-home::before {
-  background-image: url(../img/HOME.png);
+  background-image: url(../img/home.png);
 }
 
 .icon-photo::before {
-  background-image: url(../img/IMAGE.png);
+  background-image: url(../img/image.png);
 }
 
 .team::after {
