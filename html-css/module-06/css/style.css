@@ -127,7 +127,7 @@
 }
 
 .icon-alarm::before {
-  background-image: url(../img/ALARM.png);
+  background-image: url(../img/alarm.png);
 }
 
 .icon-line::before {
@@ -139,7 +139,7 @@
 }
 
 .icon-book::before {
-  background-image: url(../img/book.png);
+  background-image: url(../img/books.png);
 }
 
 .icon-home::before {
